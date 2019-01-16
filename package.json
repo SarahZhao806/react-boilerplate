@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/SarahZhao806/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/SarahZhao806/react-boilerplate#readme"
+  "homepage": "https://github.com/SarahZhao806/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
 }
